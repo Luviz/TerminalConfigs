@@ -9,7 +9,7 @@ $items
 # $currLoc = $PWD
 
 # Set-Location $dir
-$items | Copy-Item -Recurse -Destination ./PowerShell/Jedi 
-
+mkdir -Path ./PowerShell/Jedi/
+$items | Copy-Item -Recurse -Destination ./PowerShell/Jedi/ 
 
 # Set-Location $currLoc
